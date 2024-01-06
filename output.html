@@ -16,7 +16,6 @@
 <body>
 
     <p id ="demo"></p>
-
     <p id ="demo1"></p>
     <p id ="demo2"></p>
 
@@ -26,15 +25,19 @@
         var y='Price of pen is = '
         document.getElementById("demo").innerHTML = y+x ;
         document.write( y+x );
-        window.alert( y+x)
-        window.console( y+x)
+        // window.alert( y+x)
+        // window.console( y+x)
     </script>
 
     <script>
         // java scripts output methods
         var x=250
         var y='Price of pen is = '
-        document.getElementById("demo1").innerHTML=x
+        let qty=5
+        let tprice=x*qty
+        document.getElementById("demo1").innerHTML="Print: "+y+x
+        document.getElementById("demo1").innerHTML="Qty: "+qty
+        document.getElementById("demo2").innerHTML="Print Total price: "+tprice
     </script>
     
 </body>
