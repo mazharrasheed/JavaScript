@@ -35,9 +35,18 @@ idx=1
 for (let div of dives){
     div.innerText=`New uniqe text ${idx}`;
     idx++;
-
 }
+document.body.childNodes[13].innerHTML=document.body.childNodes[13].innerHTML+'<p>New para from javascrit</p>'
 
 
-document.body.childNodes[11].innerHTML=document.body.childNodes[11].innerHTML+'<p>New para from javascrit</p>'
+// practice quistion create a button with background color red and text color white 'click me'
+
+let new_btn=document.createElement('button');
+new_btn.innerText="click me";
+new_btn.style.backgroundColor='red';
+new_btn.style.color='white';
+document.querySelector("body").prepend(new_btn);
+
+let para=document.querySelector('p')
+para.classList.add('newclass')
 

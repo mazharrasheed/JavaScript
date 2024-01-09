@@ -17,8 +17,17 @@ h1{
 .box{
     width: 125px;
     height:50px;
-    background-color:aquamarine;
+    background-color:rgb(5, 133, 90);
     margin:5px 5px 5px 5px;
     display:inline-block;
     text-align: center;
+}
+
+.content{
+    color:red;
+
+}
+
+.newclass{
+    background-color: yellow;
 }
