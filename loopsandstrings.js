@@ -119,10 +119,27 @@ console.log(mystg.charAt(10));
 
 // Practice Qs.1 
 
-let username=prompt("Enter user name with out spaces")
-let myusername=`@${username}${username.length}`
-let myusername1='@'+username+username.length
+// let username=prompt("Enter user name with out spaces")
+// let myusername=`@${username}${username.length}`
+// let myusername1='@'+username+username.length
 
-console.log('UserName:'+ myusername)
-console.log('UserName:'+ myusername1)
-console.log('UserName:'+'@'+username+username.length)
+// console.log('UserName:'+ myusername)
+// console.log('UserName:'+ myusername1)
+// console.log('UserName:'+'@'+username+username.length)
+
+
+for(let i=0; i<5; i++){
+    console.log("index=",i);
+}
+
+lst=[1,2,3,4,5,6,7,8,9,10];
+console.log('table of 2 is');
+for (i of lst){
+    console.log(`2x${i}=${i*2}`);
+     }
+
+let k=1;
+while(k<=5){console.log(k*5);k++};
+
+let n=1
+do{console.log(n*3);n++}while(n<=5);
