@@ -47,6 +47,8 @@ new_btn.style.backgroundColor='red';
 new_btn.style.color='white';
 document.querySelector("body").prepend(new_btn);
 
+//Practice Q 2
+
 let para=document.querySelector('p')
 para.classList.add('newclass')
 

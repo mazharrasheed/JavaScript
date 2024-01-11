@@ -31,3 +31,30 @@ h1{
 .newclass{
     background-color: yellow;
 }
+
+button{
+    background-color: antiquewhite;
+}
+#mybtn{
+    background-color: aquamarine;
+}
+.box{
+    height: 150px;
+width: 200px;
+
+background-color: brown;
+color:white;
+border:2px solid black;
+margin: 10px;
+justify-content: center;
+
+}
+
+.dark{
+    background-color: blueviolet;
+    color: white;
+}
+.light{
+    background-color:white;
+    color: black;
+}

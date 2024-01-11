@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <button ondblclick="console.log('button was clicked  two times')">coubleclick me</button>
+    <button id="mybtn" >click me</button>
+    <button id="toggle">Toggle Mode</button>
+    
+    <div class='box' onmouseover="console.log('your are inside adiv')">you inside a div</div>
+    
+    <button id="btn">EventListner</button>
+
+    <script src="events.js"></script>
+
+<hr>
+
+<h1>The Element Object</h1>
+<h2>The addEventListener() Method</h2>
+
+<p>Execute a function when a user clicks on a button:</p>
+
+<button id="myBtn">Try it</button>
+
+<p id="demo">
+
+<script>
+const element = document.getElementById("myBtn");
+element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Hello World";
+}
+</script>
+
+
+</body>
+</html>
