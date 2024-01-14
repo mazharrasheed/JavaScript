@@ -87,8 +87,6 @@ class Person{
     }
 }
 
-
-
 class Engineer extends Person {
 
     constructor(branch,name){
@@ -105,5 +103,55 @@ class Engineer extends Person {
     }
 }
 
-
 let engrobj=new Engineer('Mechenical Engr','mazhar');
+
+// Practice quistion1
+
+let data="some personl data"
+
+class User{
+    constructor(username,email){
+    this.username=username;
+    this.email=email;
+    }
+
+    viewdata(){
+        console.log("data =", data)
+    
+    }
+}
+
+class Admin extends User {
+    constructor(username,email){
+        super(username,email)
+   
+    }
+    editData(){
+
+        data="some new data"
+        console.log(data)
+    }
+}
+
+let student1=new User('mazhar','mazhar@email.com')
+let student2=new User('hadia','hadia@email.com')
+
+let admin1=new Admin('admin','admin@email.com')
+
+// error handling
+
+let a=454
+let b=434
+console.log(a+b)
+console.log(a+b)
+console.log(a+b)
+try{
+    console.log(a+c)
+
+}
+catch(err){
+    console.log (err)
+}
+console.log(a+b)
+console.log(a+b)
+console.log(a+b)
