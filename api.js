@@ -11,6 +11,7 @@ const getfacts= async()=>{
     let response=await fetch(URL);
     console.log(response); // Json formate
     let data=await response.json(); // java script formate
+    console.log(data)
     console.log(data[0].text);
     factpara.innerHTML=data[0].text;
 }
